@@ -1,0 +1,1482 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<OurArmies>
+      <Army name="Daemons"></Army>
+      <Army name="DarkElves"></Army>
+      <Army name="Empire"></Army>
+      <Army name="HighElves"></Army>
+      <Army name="Lizardmen"></Army>
+      <Army name="TombKings"></Army>
+      <Army name="Skaven"></Army>
+      <Army name="Vampires"></Army>
+	</OurArmies>
+
+  <Country name="Default">
+    <Opponent name="Beasts"/>
+    <Opponent name="Bretonnians"/>
+    <Opponent name="ChaosDwarves"/>
+    <Opponent name="Daemons"/>
+    <Opponent name="DarkElves"/>
+    <Opponent name="DOW"/>
+    <Opponent name="Dwarves"/>
+    <Opponent name="Empire"/>
+    <Opponent name="HighElves"/>
+    <Opponent name="Lizardmen"/>
+    <Opponent name="Ogres"/>
+    <Opponent name="Orcs"/>
+    <Opponent name="Skaven"/>
+    <Opponent name="TombKings"/>
+    <Opponent name="Vampires"/>
+    <Opponent name="Warriors"/>
+    <Opponent name="WoodElves"/>
+  </Country>
+
+
+	<OpposingCountries>
+	  <Country name="Austria">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="DOW">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Belgium">
+		<Opponent name="Beasts">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="ChaosDwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Orcs">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Bad</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Croatia">
+		<Opponent name="Bretonnians">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Orcs">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Bad</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Czech">
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="TombKings">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Denmark">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="England">
+		<Opponent name="Daemons"/>
+		<Opponent name="DarkElves"/>
+		<Opponent name="Dwarves"/>
+		<Opponent name="Empire"/>
+		<Opponent name="HighElves"/>
+		<Opponent name="Lizardmen"/>
+		<Opponent name="Warriors"/>
+		<Opponent name="WoodElves"/>
+	  </Country>
+	  <Country name="Finland">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Bad</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="France">
+		<Opponent name="Bretonnians">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Bad</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Germany">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Bad</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Greece">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Bad</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Hungary">
+		<Opponent name="Bretonnians">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Bad</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Ireland">
+		<Opponent name="Beasts">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Italy">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="TombKings">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Netherlands">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="NorthIreland">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Ogres">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Dwarves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Orcs">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Norway">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="TombKings">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Poland">
+		<Opponent name="Bretonnians"/>
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Empire">Bad</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="HighElves">Good</Army>
+		  <Army name="Vampires">Average</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="DarkElves">Average</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		</Opponent>
+		<Opponent name="TombKings">
+		  <Army name="Empire">Bad</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Portugal">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Bad</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="TombKings">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Scotland">
+		<Opponent name="Bretonnians">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Ogres">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Dwarves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Slovenia">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Sweden">
+		<Opponent name="Daemons">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Good</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Bad</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Orcs">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="Skaven">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+	  <Country name="Switzerland">
+		<Opponent name="Bretonnians"/>
+		<Opponent name="Daemons"/>
+		<Opponent name="DarkElves"/>
+		<Opponent name="Empire"/>
+		<Opponent name="HighElves"/>
+		<Opponent name="Lizardmen"/>
+		<Opponent name="Vampires"/>
+		<Opponent name="WoodElves"/>
+	  </Country>
+	  <Country name="Russia">
+		<Opponent name="DarkElves">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Dwarves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Bad</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Empire">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="HighElves">
+		  <Army name="Daemons">Bad</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Bad</Army>
+		  <Army name="HighElves">Average</Army>
+		  <Army name="TombKings">Bad</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Lizardmen">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Bad</Army>
+		</Opponent>
+		<Opponent name="Vampires">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Average</Army>
+		</Opponent>
+		<Opponent name="Warriors">
+		  <Army name="Daemons">Good</Army>
+		  <Army name="DarkElves">Good</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Good</Army>
+		  <Army name="Vampires">Average</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+		<Opponent name="WoodElves">
+		  <Army name="Daemons">Average</Army>
+		  <Army name="DarkElves">Average</Army>
+		  <Army name="Empire">Average</Army>
+		  <Army name="HighElves">Good</Army>
+		  <Army name="TombKings">Average</Army>
+		  <Army name="Vampires">Good</Army>
+		  <Army name="WoodElves">Good</Army>
+		</Opponent>
+	  </Country>
+  </OpposingCountries>
+  
+</Settings>
